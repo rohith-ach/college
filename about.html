@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <link rel="stylesheet" href="college.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav >
+      <a href="college.html"><img src="images/ymgm-logo.jpg"></a>
+      <div class="nav-links" id="nav-links">
+        <img src="images/transparent-x-mark-icon-cancel-icon-interface-icon-607cb30abe2885.9486230316187850347789.jpg" onclick="hideMenu()" class="fa-solid fa-xmark">
+
+        <ul>
+          <li><a href="college.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSES</a></li>
+         
+          <li><a href="conatct.html">CONTACT</a></li>
+
+        </ul>
+        
+      </div>
+      <img src="images/download (2).png" onclick="showMenu()" class="fa-solid fa-bars">
+
+
+    </nav>
+    <h1>
+      About Us
+    </h1>
+  </section>
+      <section class="about-us">
+    
+    <div class="row">
+      <div class="subheader-col">
+        <h1>MGM College</h1>
+        <p>The vision of our founder Dr. T.M.A. Pai was “to take education to the doorsteps of the people in and around Udupi.” The lamp lit by him has lit hundreds of lamps. The college believes in words of the Mahatma after whom the college is named- “The end of all knowledge must be building up of character”</p>
+        <a class="hero-btn" href="">Explore Now</a>
+      </div>
+      <div class="subheader-col">
+        <img src="images/aboutimage.jpg">
+      </div>
+    </div>
+    </section>
+
+
+  
+   
+
+
+
+    <!--  -->
+   
+
+    <section class="footer">
+      <h3>About Us</h3>
+      <p>To build a professional career by working with motivated and dedicated people in a very competitive and structured organizational environment.</p>
+      <div class="profile">
+        <img src="images/Rounded_Facebook_svg-128.webp">
+        <img src="images/Rounded_Instagram_svg-128.webp">
+        <img src="images/Rounded_Linkedin2_svg-128.webp">
+        <img src="images/Rounded_Twitter5_svg-128.webp">
+
+      </div>
+    </section>
+  <script>
+    let navLinks=document.getElementById("nav-links");
+
+    function hideMenu(){
+      navLinks.style.right="-200px";
+
+    }
+    function showMenu(){
+      navLinks.style.right="0";
+      
+    }
+  </script>
+</body>
+</html>
